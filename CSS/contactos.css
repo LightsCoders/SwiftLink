@@ -1,0 +1,13 @@
+#listacontacto{
+    display:block;
+    background: green;
+    position: relative;
+    width: 25%;
+    height: 350px;
+    
+    border-style: solid;
+}
+#listacontacto h3{
+    text-align: center;
+    text-decoration-line:underline;
+}

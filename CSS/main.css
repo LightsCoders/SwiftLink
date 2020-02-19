@@ -1,6 +1,11 @@
 @import url(config.css);
+@import url(perfil.css);
+@import url(contactos.css);
+@import url(contenedor.css);
+
 *{
-    padding: 0;
+    top: 5px;
+    padding: 1px;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
