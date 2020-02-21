@@ -6,12 +6,14 @@
     height: 300px;
     background: blue;
     border-style: solid;
+    
 }
 #configuracion h3{
     text-align: center;
     text-decoration-line:underline;
     font-family: 'Sriracha', cursive;
 }
+
 
 #configuracion ul li {
     text-align: center;
@@ -20,4 +22,3 @@
     cursor: pointer;
     margin-top: 25px;
 }
-

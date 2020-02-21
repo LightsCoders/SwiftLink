@@ -6,12 +6,12 @@
 #listacontacto{
     
     display:block;
+    flex-wrap: wrap;
     background: green;
     position: relative;
     width: 25%;
-    height: 350px;
+    height: auto;
     border-style: solid;
-    
 }
 
 #listacontacto h3{
@@ -19,6 +19,9 @@
     text-align: center;
     font-family: 'Sriracha', cursive;
     text-decoration-line:underline;
+}
+#listacontacto a{
+    font-size: 20px;
 }
 
 .Personas ul li {
@@ -40,7 +43,7 @@
 }
 .grupos ul li {
     display: flex;
-    
+    flex-wrap: wrap;
     position: relative;
     cursor: pointer;
     margin-top: 1px;

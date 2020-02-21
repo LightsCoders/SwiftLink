@@ -6,21 +6,22 @@
     background: red;
     border-style: solid;
     
-   
-    
 }
 #perfil h3 {
-    text-align: center;
+    position:absolute;
+    width: 100%;
+    text-align:center;
+    align-content: center;
     
 }
 
-img{
-    
+#perfil img{
     width: 150px;
     height: 120px;
     border-radius: 50%;
+    border: 3px solid #FFFF;
     display: flex;
-    margin: 0px;
+    margin: 10px;
     display: inline-block;
-    border-radius: 2px solid #FFFFFF
+    border-radius: 2px solid #FFFFFF;
 }
