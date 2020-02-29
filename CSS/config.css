@@ -1,9 +1,9 @@
 #configuracion{
     margin-top: 2px;
-    display:block;
+    display: block;
     position: relative;
     width: 25%;
-    height: 300px;
+    height: auto;
     background: blue;
     border-style: solid;
     
@@ -21,4 +21,7 @@
     position: relative;
     cursor: pointer;
     margin-top: 25px;
+}
+#configuracion a{
+    font-size: 20px;
 }
