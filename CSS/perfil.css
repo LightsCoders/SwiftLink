@@ -1,34 +1,33 @@
 #perfil{
+    display:flex;
     width: 100%;
-    height: 210px;
-    background: red;
+    height: 10%;
+    background: rgba(50, 0, 255,0.6);
     border-style: solid;
-    position: relative;
+    position: absolute;
 }
 #perfil h3 {
-    display: inline-block;
-    position: absolute;
     text-align: center;
-    width: 200px;
+    position:absolute;
+    top: -8%;
     height: 100%;
+    width: 100%;
     font-size: 3.5rem;
     text-transform: uppercase;
-    align-content: center;
     font-family: 'Sriracha', sans-serif;
-    float: left;
-    left: 50%;
-    transform: translateX(-50%)
+    color: #fff;
+    -webkit-text-stroke: 1px blue;
+    
 }
 
 #perfil img{
-    position: absolute;
-    margin-left: 2rem;
+    position: relative;
+    margin-left: 1rem;
     transform: translateY(-50%);
     float: left;
-    width: 150px;
-    height: auto;
+    width: 5.5%;
+    height: 85%;
     top: 50%;
     border-radius: 50%;
     border: 2px solid #FFFF;
-    display: inline-block;
 }

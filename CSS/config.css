@@ -1,11 +1,11 @@
 #configuracion{
-    margin-top: 2px;
+    margin-top: 6.87%;
     display: block;
     position: relative;
     width: 25%;
     height: auto;
-    background: blue;
-    border-style: solid;
+    background: rgba(217, 7, 255 ,0.08);
+    border:1px solid;
     
 }
 #configuracion h3{
@@ -17,10 +17,10 @@
 
 #configuracion ul li {
     text-align: center;
-    border-top-style: solid;
+    border-top: 1px solid;
     position: relative;
     cursor: pointer;
-    margin-top: 25px;
+    padding: 10px 0px 10px 0px;
 }
 #configuracion a{
     font-size: 20px;
