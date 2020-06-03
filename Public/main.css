@@ -1,0 +1,59 @@
+#contenedor{
+    position: absolute;
+    width: 90%;
+    height: 50%;
+    display:block;
+    border: 5px solid black;
+}
+
+#mensajes{
+    position:relative;
+    width: 100%;
+    height: 90%;
+    display:block;
+    overflow:auto;
+    
+}
+
+.enviado{
+    float: left;
+    clear: both;
+    font-size: 30px;
+    border: 2px solid blue;
+    border-radius: 100%;
+    margin: 10px;
+    padding: 5px 15px;
+    text-align: left;
+    height: auto;
+    word-break:break-all;
+    hyphens: auto;
+}
+
+.recibido{
+    float: right;
+    clear: both;
+    font-size: 30px;
+    border: 2px solid red;
+    border-radius: 100%;
+    margin: 10px;
+    padding: 5px 15px;
+    text-align: right;
+    height: auto;
+    word-break:break-all;
+    hyphens: auto;
+}
+
+#inSend{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    margin: 0% 2%;
+}
+
+#textIn{
+    width: 85%;
+}
+
+#enviar{
+    width: 11%;
+}

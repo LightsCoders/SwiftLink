@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>SwiftLink</title>
-    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="./CSS/main.css">
     <link rel="icon" href="./IMG/descarga.ico">
-    <script type="text/javascript" src="JS/Proof.js"></script>
-    
 </head>
 <body>
     <header>
@@ -17,7 +15,15 @@
                 <img src="./IMG/calendario.jpg" alt=""> 
         <h3>perfil</h3>
         </section>
-     </nav>    
+     </nav>
+     <section id="mensajeria">
+        <img src="./IMG/fondoAgua.jpg" alt="" id="fondoMsj">
+         <div id="conversacion">
+             
+         </div>
+         <input type="text" id="textMsj" placeholder="Escribir mensaje">
+         <input type="button" id="sendMsj" value="Enviar">
+     </section>  
         <section id="listacontacto">
             <div class="personas">
                 <div class="contacTitle"><h3>personas</h3></div>
@@ -72,14 +78,17 @@
         </section>
     <input type="button" style="width: 50%" value="agregar persona" id="boton" onclick="agregarPersona()">
      
-     <input type="button" style="width: 50%" value="agregar Grupo" id="boton" onclick="agregarGrupo()">
+     <input type="button" style="width: 50%" value="agregar Grupo" id="boton2" onclick="agregarGrupo()">
       
       
        <!-- <section id="mensajeria">
             <div class="conversacion">
             
         </div>
-    </section> -->   
+    </section> -->  
+    <script type="text/javascript" src="./JS/Proof.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="chat.js"></script>
 </body>
 </html>
 <!--para documentar-->

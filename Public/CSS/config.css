@@ -6,6 +6,7 @@
     height: auto;
     background: rgba(217, 7, 255 ,0.08);
     border:1px solid;
+    display: none;
     
 }
 #configuracion h3{
