@@ -23,11 +23,12 @@ texto.addEventListener('keydown',(tecla)=>{
 
 socket.on('respuestaMsj', (dato) => {
     mensajes.innerHTML += `<p class="enviado">${dato}<p>`;
+    mensajes.scrollBy(0,mensajes.scrollHeight);//Para desplazarse hacia abajo y mostrar siempre el ultimo mensaje que se envia
 });
 
 socket.on('respuestaMsj2', (dato) => {
     mensajes.innerHTML += `<p class="recibido">${dato}<p>`;
-})
+});
 
 //icon-enviado
 //icon
