@@ -5,6 +5,7 @@
     background: rgba(50, 0, 255,0.6);
     border-style: solid;
     position: absolute;
+    z-index: 100;
 }
 #perfil h3 {
     text-align: center;

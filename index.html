@@ -10,55 +10,54 @@
 </head>
 <body>
     <header>
-        <!--<input type="button" style="width: 50%" value="agregar" id="boton" onclick="agregar()">-->
+        
     </header>
     <nav id="nav">
         <section id= "perfil"> <!--Class = Css, Id = JavaScript-->
                 <img src="./IMG/calendario.jpg" alt=""> 
         <h3>perfil</h3>
         </section>
-        
+     </nav>    
         <section id="listacontacto">
-            <div class="Personas">
-            <h3>Personas</h3>
-            <ul id="personass">
-               <li class="listElement">
-                  <img src="./ICON/user.png" alt=""> 
-                   <a href="">cielo
-                   </a>
-                </li>
-                <li class="listElement">
-                  <img src="./ICON/user.png" alt=""> 
-                   <a href="">Alicia
-                   </a>
-                </li>
-                <li class="listElement">
-                  <img src="./ICON/user.png" alt=""> 
-                   <a href="">Pedro
-                   </a>
-                </li>
-            </ul>
+            <div class="personas">
+                <div class="contacTitle"><h3>personas</h3></div>
+                <ul id="personass">
+                   <li class="listElement">
+                      <img src="./ICON/user.png" alt=""> 
+                       <a href="">cielo
+                       </a>
+                    </li>
+                    <li class="listElement">
+                      <img src="./ICON/user.png" alt=""> 
+                       <a href="">Alicia
+                       </a>
+                    </li>
+                    <li class="listElement">
+                      <img src="./ICON/user.png" alt=""> 
+                       <a href="">Pedro
+                       </a>
+                    </li>
+                </ul> 
             </div>
         
             <div class="grupos">
-        <h3>Grupos</h3>
-           <ul>
-               <li class="listElement">
-                   <img src="./ICON/grupo2.png" alt=""> 
-                   <a href="">time
-                    </a>
-                </li>
-               <li class="listElement">
-                   <img src="./ICON/grupo2.png" alt=""> 
-                   <a href="">Game
-                    </a>
-                </li>
-                <li class="listElement">
-                   <img src="./ICON/grupo2.png" alt=""> 
-                   <a href="">truco!!!
-                    </a>
-                </li>
-           </ul>
+                <div class="contacTitle"><h3>Grupos</h3></div>
+                <ul id="gruposs">
+                    <li class="listElement">
+                       <img src="./ICON/grupo2.png" alt=""> 
+                       <a href="">time
+                        </a>
+                    </li>
+                    <li class="listElement">    <img src="./ICON/grupo2.png" alt=""> 
+                       <a href="">Game
+                        </a>
+                    </li>
+                    <li class="listElement">
+                       <img src="./ICON/grupo2.png" alt=""> 
+                       <a href="">truco!!!
+                        </a>
+                    </li>
+                </ul> 
             </div>    
         </section>
         <section id="configuracion">
@@ -71,13 +70,16 @@
             <li><a href="">pintar</a></li>
         </ul>
         </section>
-    
+    <input type="button" style="width: 50%" value="agregar persona" id="boton" onclick="agregarPersona()">
+     
+     <input type="button" style="width: 50%" value="agregar Grupo" id="boton" onclick="agregarGrupo()">
+      
+      
        <!-- <section id="mensajeria">
             <div class="conversacion">
             
         </div>
-    </section> -->
-    </nav>    
+    </section> -->   
 </body>
 </html>
 <!--para documentar-->
