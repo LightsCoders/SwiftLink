@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>SwiftLink</title>
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="icon" href="./IMG/descarga.ico">
+</head>
+<body>
+    <header>
+        
+    </header>
+    <nav id="nav">
+        <section id= "perfil"> <!--Class = Css, Id = JavaScript-->
+                <img src="./IMG/calendario.jpg" alt=""> 
+        <h3>perfil</h3>
+        </section>
+     </nav>
+     <section id="mensajeria">
+        <img src="./IMG/fondoAgua.jpg" alt="" id="fondoMsj">
+         <div id="conversacion">
+            
+         </div>
+         <input type="text" id="textMsj" placeholder="Escribir mensaje">
+         <input type="button" id="sendMsj" value="Enviar">
+     </section>  
+        <section id="listacontacto">
+            <div class="personas">
+                <div class="contacTitle"><h3>personas</h3></div>
+                <ul id="personass">
+                   <li class="listElement">
+                      <img src="./ICON/user.png" alt=""> 
+                       <a href="">cielo
+                       </a>
+                    </li>
+                    <li class="listElement">
+                      <img src="./ICON/user.png" alt=""> 
+                       <a href="">Alicia
+                       </a>
+                    </li>
+                    <li class="listElement">
+                      <img src="./ICON/user.png" alt=""> 
+                       <a href="">Pedro
+                       </a>
+                    </li>
+                </ul> 
+            </div>
+        
+            <div class="grupos">
+                <div class="contacTitle"><h3>Grupos</h3></div>
+                <ul id="gruposs">
+                    <li class="listElement">
+                       <img src="./ICON/grupo2.png" alt=""> 
+                       <a href="">time
+                        </a>
+                    </li>
+                    <li class="listElement">    <img src="./ICON/grupo2.png" alt=""> 
+                       <a href="">Game
+                        </a>
+                    </li>
+                    <li class="listElement">
+                       <img src="./ICON/grupo2.png" alt=""> 
+                       <a href="">truco!!!
+                        </a>
+                    </li>
+                </ul> 
+            </div>    
+        </section>
+        <section id="configuracion">
+        <h3>Configuracion</h3>
+        <ul>
+            <li><a href="">gestor</a></li>
+            <li><a href="">mantenimiento</a></li>
+            <li><a href="">avanzado</a></li>
+            <li><a href="">molestar</a></li>
+            <li><a href="">pintar</a></li>
+        </ul>
+        </section>
+    <input type="button" style="width: 50%" value="agregar persona" id="boton" onclick="agregarPersona()">
+     
+     <input type="button" style="width: 50%" value="agregar Grupo" id="boton2" onclick="agregarGrupo()">
+      
+      
+       <!-- <section id="mensajeria">
+            <div class="conversacion">
+            
+        </div>
+    </section> -->  
+    <script type="text/javascript" src="./JS/Proof.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="chat.js"></script>
+</body>
+</html>
+<!--para documentar-->

@@ -2,14 +2,16 @@
 @import url(config.css);
 @import url(perfil.css);
 @import url(contactos.css);
-@import url(contenedor.css);
-@import url(mensajes.css);
+@import url(mensajeria.css);
 
 
 *{
-    top: 5px;
-    padding: 1px;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+}
+
+body{
+    overflow: hidden;
 }
