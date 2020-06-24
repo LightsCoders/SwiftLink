@@ -7,7 +7,7 @@ function agregarPersona(){
     var nombre = document.createElement("a");
     var imagen = document.createElement("img");
     
-    contacto.setAttribute("class", "listElement");
+    contacto.setAttribute("class", "personElement");
     imagen.setAttribute("src","./ICON/user.png");
     
     
@@ -24,7 +24,7 @@ function agregarGrupo(){
     var nombre = document.createElement("a");
     var imagen = document.createElement("img");
     
-    contacto.setAttribute("class", "listElement");
+    contacto.setAttribute("class", "groupElement");
     imagen.setAttribute("src","./ICON/grupo2.png");
     
     
